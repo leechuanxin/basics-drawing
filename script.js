@@ -35,7 +35,7 @@ var square = function (input) {
       innerCounter += 1;
     }
     // Insert a line break to start a new row
-    myOutputValue += '<br>';
+    myOutputValue += '\n';
     outerCounter += 1;
   }
   return myOutputValue;
@@ -62,7 +62,7 @@ var triangle = function (input) {
       innerCounter += 1;
     }
     // Insert a line break to start a new row
-    myOutputValue += '<br>';
+    myOutputValue += '\n';
     outerCounter += 1;
   }
   return myOutputValue;
@@ -128,7 +128,7 @@ var upsideDownTriangle = function (input) {
       innerCounter += 1;
     }
     // Insert a line break to start a new row
-    myOutputValue += '<br>';
+    myOutputValue += '\n';
     outerCounter += 1;
   }
   return myOutputValue;
@@ -158,7 +158,7 @@ var outlineSquare = function (input) {
       innerCounter += 1;
     }
     // Insert a line break to start a new row
-    myOutputValue += '<br>';
+    myOutputValue += '\n';
     outerCounter += 1;
   }
   return myOutputValue;
@@ -168,7 +168,7 @@ var outlineSquare = function (input) {
  * Solution for Center Square
  */
 // eslint-disable-next-line no-unused-vars
-var centerSquare = function (input) {
+var main = function (input) {
   var myOutputValue = '';
   // sideLength represents the length of each side of the square
   var sideLength = Number(input);
@@ -196,7 +196,7 @@ var centerSquare = function (input) {
       innerCounter += 1;
     }
     // Insert a line break to start a new row
-    myOutputValue += '<br>';
+    myOutputValue += '\n';
     outerCounter += 1;
   }
   return myOutputValue;
@@ -248,7 +248,7 @@ var rings = function (input) {
       myOutputValue += grid[i][j];
     }
     // Insert a line break to start a new row
-    myOutputValue += '<br>';
+    myOutputValue += '\n';
   }
 
   return myOutputValue;
