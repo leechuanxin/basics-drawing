@@ -35,7 +35,7 @@ var square = function (input) {
       innerCounter += 1;
     }
     // Insert a line break to start a new row
-    myOutputValue += '\n';
+    myOutputValue += '<br>';
     outerCounter += 1;
   }
   return myOutputValue;
@@ -62,7 +62,7 @@ var triangle = function (input) {
       innerCounter += 1;
     }
     // Insert a line break to start a new row
-    myOutputValue += '\n';
+    myOutputValue += '<br>';
     outerCounter += 1;
   }
   return myOutputValue;
@@ -128,7 +128,7 @@ var upsideDownTriangle = function (input) {
       innerCounter += 1;
     }
     // Insert a line break to start a new row
-    myOutputValue += '\n';
+    myOutputValue += '<br>';
     outerCounter += 1;
   }
   return myOutputValue;
@@ -158,7 +158,7 @@ var outlineSquare = function (input) {
       innerCounter += 1;
     }
     // Insert a line break to start a new row
-    myOutputValue += '\n';
+    myOutputValue += '<br>';
     outerCounter += 1;
   }
   return myOutputValue;
@@ -196,7 +196,7 @@ var main = function (input) {
       innerCounter += 1;
     }
     // Insert a line break to start a new row
-    myOutputValue += '\n';
+    myOutputValue += '<br>';
     outerCounter += 1;
   }
   return myOutputValue;
@@ -248,7 +248,7 @@ var rings = function (input) {
       myOutputValue += grid[i][j];
     }
     // Insert a line break to start a new row
-    myOutputValue += '\n';
+    myOutputValue += '<br>';
   }
 
   return myOutputValue;
